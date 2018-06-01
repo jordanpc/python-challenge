@@ -32,3 +32,13 @@ print('-----------------------------')
 # The winner of the election based on popular vote.
 print('Winner: '+WinnerName)
 
+# Output to Text File
+f= open('main.txt', 'w')
+f.write('-----------------------------\n')
+f.write('Total Votes: '+ str(TotalCounts))
+f.write('-----------------------------\n')
+f.write(str(NewSummary))
+f.write('-----------------------------\n')
+f.write('Winner: '+WinnerName)
+f.close()
+
