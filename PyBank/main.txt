@@ -1,0 +1,8 @@
+-----------------------------
+Financial Analysis
+-----------------------------
+Total Months: 41Total Revenue: $18971412Average Revenue Change: $-6758.975Date         Jan-13
+Diff    1.01238e+06
+Name: 3, dtype: objectDate         Dec-12
+Diff   -1.33448e+06
+Name: 2, dtype: object-----------------------------
