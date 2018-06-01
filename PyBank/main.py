@@ -41,3 +41,16 @@ min = new_diff.loc[new_diff['Diff'].idxmin()]
 print(min)
 
 print('-----------------------------')
+
+# Output to Text File
+f= open("main.txt","w")
+f.write("-----------------------------\n")
+f.write("Financial Analysis\n")
+f.write("-----------------------------\n")
+f.write('Total Months: '+str(TotalCounts))
+f.write('Total Revenue: $'+str(TotalRevenue))
+f.write('Average Revenue Change: $'+str(Average))
+f.write(str(max))
+f.write(str(min))
+f.write("-----------------------------\n")
+f.close()
